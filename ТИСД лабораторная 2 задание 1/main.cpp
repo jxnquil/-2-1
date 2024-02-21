@@ -52,9 +52,7 @@ int main(int argc, const char * argv[]) {
     top_of_stack = pointer;
     bottom_of_stack = pointer + MAX-1;
     
-    cout << "Введите выражение в формате обратной польской записи\nДля выхода введите 'q'" << endl;
-    gets(s);
-    
+    cout << "Введите выражение в формате обратной польской записи\nДля выхода введите 'q'" << endl;    
     do {
         printf(": ");
         gets(s);
